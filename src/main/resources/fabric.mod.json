@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "seemyname",
+  "version": "${version}",
+
+  "name": "See My Name",
+  "description": "Shows your name in F5",
+  "authors": [
+    "TheOneAndOnlyDanSan"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/seemyname",
+    "sources": "https://github.com/TheOneAndOnlyDanSan/SeeMyName"
+  },
+
+  "license": "Public Domain",
+  "icon": "assets/SeeMyName/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "seemyname.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
